@@ -1,0 +1,2 @@
+headers = GLFW/glfw3.h
+headerFilter = GLFW/*

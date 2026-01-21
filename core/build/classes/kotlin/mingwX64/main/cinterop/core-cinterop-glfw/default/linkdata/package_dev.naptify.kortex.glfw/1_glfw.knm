@@ -1,0 +1,871 @@
+
+÷V
+kotlin
+Int
+kotlinx
+cinterop
+internal
+CCall
+id
++knifunptr_dev_naptify_kortex_glfw0_glfwInit
+ExperimentalForeignApi
+glfwInit
+Unit
+0knifunptr_dev_naptify_kortex_glfw1_glfwTerminate
+glfwTerminate
+hint
+value
+/knifunptr_dev_naptify_kortex_glfw2_glfwInitHint
+glfwInitHint
+
+CValuesRef
+dev
+naptify
+kortex
+glfw
+GLFWallocator
+	allocator
+4knifunptr_dev_naptify_kortex_glfw3_glfwInitAllocator
+glfwInitAllocator
+IntVarOf
+IntVar
+major
+minor
+rev
+1knifunptr_dev_naptify_kortex_glfw4_glfwGetVersion
+glfwGetVersion
+CPointer
+	ByteVarOf
+Byte
+ByteVar
+7knifunptr_dev_naptify_kortex_glfw5_glfwGetVersionString
+glfwGetVersionString
+CPointerVarOf
+CPointerVar
+description
+/knifunptr_dev_naptify_kortex_glfw6_glfwGetError
+glfwGetError
+	CFunction
+	Function2
+GLFWerrorfun
+callback
+7knifunptr_dev_naptify_kortex_glfw7_glfwSetErrorCallback
+glfwSetErrorCallback
+2knifunptr_dev_naptify_kortex_glfw8_glfwGetPlatform
+glfwGetPlatform
+platform
+8knifunptr_dev_naptify_kortex_glfw9_glfwPlatformSupported
+glfwPlatformSupported
+count
+cnames
+structs
+GLFWmonitor
+3knifunptr_dev_naptify_kortex_glfw10_glfwGetMonitors
+glfwGetMonitors
+9knifunptr_dev_naptify_kortex_glfw11_glfwGetPrimaryMonitor
+glfwGetPrimaryMonitor
+monitor
+xpos
+ypos
+5knifunptr_dev_naptify_kortex_glfw12_glfwGetMonitorPos
+glfwGetMonitorPos
+width
+height
+:knifunptr_dev_naptify_kortex_glfw13_glfwGetMonitorWorkarea
+glfwGetMonitorWorkarea
+widthMM
+heightMM
+>knifunptr_dev_naptify_kortex_glfw14_glfwGetMonitorPhysicalSize
+glfwGetMonitorPhysicalSize
+
+FloatVarOf
+Float
+FloatVar
+xscale
+yscale
+>knifunptr_dev_naptify_kortex_glfw15_glfwGetMonitorContentScale
+glfwGetMonitorContentScale
+6knifunptr_dev_naptify_kortex_glfw16_glfwGetMonitorName
+glfwGetMonitorName
+pointer
+=knifunptr_dev_naptify_kortex_glfw17_glfwSetMonitorUserPointer
+glfwSetMonitorUserPointer
+CPointed
+COpaquePointer
+=knifunptr_dev_naptify_kortex_glfw18_glfwGetMonitorUserPointer
+glfwGetMonitorUserPointer
+GLFWmonitorfun
+:knifunptr_dev_naptify_kortex_glfw19_glfwSetMonitorCallback
+glfwSetMonitorCallback
+GLFWvidmode
+5knifunptr_dev_naptify_kortex_glfw20_glfwGetVideoModes
+glfwGetVideoModes
+4knifunptr_dev_naptify_kortex_glfw21_glfwGetVideoMode
+glfwGetVideoMode
+gamma
+0knifunptr_dev_naptify_kortex_glfw22_glfwSetGamma
+glfwSetGamma
+GLFWgammaramp
+4knifunptr_dev_naptify_kortex_glfw23_glfwGetGammaRamp
+glfwGetGammaRamp
+ramp
+4knifunptr_dev_naptify_kortex_glfw24_glfwSetGammaRamp
+glfwSetGammaRamp
+:knifunptr_dev_naptify_kortex_glfw25_glfwDefaultWindowHints
+glfwDefaultWindowHints
+2knifunptr_dev_naptify_kortex_glfw26_glfwWindowHint
+glfwWindowHint
+String
+CString
+8knifunptr_dev_naptify_kortex_glfw27_glfwWindowHintString
+glfwWindowHintString
+title
+
+GLFWwindow
+share
+4knifunptr_dev_naptify_kortex_glfw28_glfwCreateWindow
+glfwCreateWindow
+window
+5knifunptr_dev_naptify_kortex_glfw29_glfwDestroyWindow
+glfwDestroyWindow
+9knifunptr_dev_naptify_kortex_glfw30_glfwWindowShouldClose
+glfwWindowShouldClose
+<knifunptr_dev_naptify_kortex_glfw31_glfwSetWindowShouldClose
+glfwSetWindowShouldClose
+6knifunptr_dev_naptify_kortex_glfw32_glfwGetWindowTitle
+glfwGetWindowTitle
+6knifunptr_dev_naptify_kortex_glfw33_glfwSetWindowTitle
+glfwSetWindowTitle
+	GLFWimage
+images
+5knifunptr_dev_naptify_kortex_glfw34_glfwSetWindowIcon
+glfwSetWindowIcon
+4knifunptr_dev_naptify_kortex_glfw35_glfwGetWindowPos
+glfwGetWindowPos
+4knifunptr_dev_naptify_kortex_glfw36_glfwSetWindowPos
+glfwSetWindowPos
+5knifunptr_dev_naptify_kortex_glfw37_glfwGetWindowSize
+glfwGetWindowSize
+minwidth
+	minheight
+maxwidth
+	maxheight
+;knifunptr_dev_naptify_kortex_glfw38_glfwSetWindowSizeLimits
+glfwSetWindowSizeLimits
+numer
+denom
+<knifunptr_dev_naptify_kortex_glfw39_glfwSetWindowAspectRatio
+glfwSetWindowAspectRatio
+5knifunptr_dev_naptify_kortex_glfw40_glfwSetWindowSize
+glfwSetWindowSize
+:knifunptr_dev_naptify_kortex_glfw41_glfwGetFramebufferSize
+glfwGetFramebufferSize
+left
+top
+right
+bottom
+:knifunptr_dev_naptify_kortex_glfw42_glfwGetWindowFrameSize
+glfwGetWindowFrameSize
+=knifunptr_dev_naptify_kortex_glfw43_glfwGetWindowContentScale
+glfwGetWindowContentScale
+8knifunptr_dev_naptify_kortex_glfw44_glfwGetWindowOpacity
+glfwGetWindowOpacity
+opacity
+8knifunptr_dev_naptify_kortex_glfw45_glfwSetWindowOpacity
+glfwSetWindowOpacity
+5knifunptr_dev_naptify_kortex_glfw46_glfwIconifyWindow
+glfwIconifyWindow
+5knifunptr_dev_naptify_kortex_glfw47_glfwRestoreWindow
+glfwRestoreWindow
+6knifunptr_dev_naptify_kortex_glfw48_glfwMaximizeWindow
+glfwMaximizeWindow
+2knifunptr_dev_naptify_kortex_glfw49_glfwShowWindow
+glfwShowWindow
+2knifunptr_dev_naptify_kortex_glfw50_glfwHideWindow
+glfwHideWindow
+3knifunptr_dev_naptify_kortex_glfw51_glfwFocusWindow
+glfwFocusWindow
+>knifunptr_dev_naptify_kortex_glfw52_glfwRequestWindowAttention
+glfwRequestWindowAttention
+8knifunptr_dev_naptify_kortex_glfw53_glfwGetWindowMonitor
+glfwGetWindowMonitor
+refreshRate
+8knifunptr_dev_naptify_kortex_glfw54_glfwSetWindowMonitor
+glfwSetWindowMonitor
+attrib
+7knifunptr_dev_naptify_kortex_glfw55_glfwGetWindowAttrib
+glfwGetWindowAttrib
+7knifunptr_dev_naptify_kortex_glfw56_glfwSetWindowAttrib
+glfwSetWindowAttrib
+<knifunptr_dev_naptify_kortex_glfw57_glfwSetWindowUserPointer
+glfwSetWindowUserPointer
+<knifunptr_dev_naptify_kortex_glfw58_glfwGetWindowUserPointer
+glfwGetWindowUserPointer
+	Function3
+GLFWwindowposfun
+<knifunptr_dev_naptify_kortex_glfw59_glfwSetWindowPosCallback
+glfwSetWindowPosCallback
+GLFWwindowsizefun
+=knifunptr_dev_naptify_kortex_glfw60_glfwSetWindowSizeCallback
+glfwSetWindowSizeCallback
+	Function1
+GLFWwindowclosefun
+>knifunptr_dev_naptify_kortex_glfw61_glfwSetWindowCloseCallback
+glfwSetWindowCloseCallback
+GLFWwindowrefreshfun
+@knifunptr_dev_naptify_kortex_glfw62_glfwSetWindowRefreshCallback
+glfwSetWindowRefreshCallback
+GLFWwindowfocusfun
+>knifunptr_dev_naptify_kortex_glfw63_glfwSetWindowFocusCallback
+glfwSetWindowFocusCallback
+GLFWwindowiconifyfun
+@knifunptr_dev_naptify_kortex_glfw64_glfwSetWindowIconifyCallback
+glfwSetWindowIconifyCallback
+GLFWwindowmaximizefun
+Aknifunptr_dev_naptify_kortex_glfw65_glfwSetWindowMaximizeCallback
+glfwSetWindowMaximizeCallback
+GLFWframebuffersizefun
+Bknifunptr_dev_naptify_kortex_glfw66_glfwSetFramebufferSizeCallback
+glfwSetFramebufferSizeCallback
+GLFWwindowcontentscalefun
+Eknifunptr_dev_naptify_kortex_glfw67_glfwSetWindowContentScaleCallback
+!glfwSetWindowContentScaleCallback
+2knifunptr_dev_naptify_kortex_glfw68_glfwPollEvents
+glfwPollEvents
+2knifunptr_dev_naptify_kortex_glfw69_glfwWaitEvents
+glfwWaitEvents
+Double
+timeout
+9knifunptr_dev_naptify_kortex_glfw70_glfwWaitEventsTimeout
+glfwWaitEventsTimeout
+6knifunptr_dev_naptify_kortex_glfw71_glfwPostEmptyEvent
+glfwPostEmptyEvent
+mode
+4knifunptr_dev_naptify_kortex_glfw72_glfwGetInputMode
+glfwGetInputMode
+4knifunptr_dev_naptify_kortex_glfw73_glfwSetInputMode
+glfwSetInputMode
+?knifunptr_dev_naptify_kortex_glfw74_glfwRawMouseMotionSupported
+glfwRawMouseMotionSupported
+key
+scancode
+2knifunptr_dev_naptify_kortex_glfw75_glfwGetKeyName
+glfwGetKeyName
+6knifunptr_dev_naptify_kortex_glfw76_glfwGetKeyScancode
+glfwGetKeyScancode
+.knifunptr_dev_naptify_kortex_glfw77_glfwGetKey
+
+glfwGetKey
+button
+6knifunptr_dev_naptify_kortex_glfw78_glfwGetMouseButton
+glfwGetMouseButton
+DoubleVarOf
+	DoubleVar
+4knifunptr_dev_naptify_kortex_glfw79_glfwGetCursorPos
+glfwGetCursorPos
+4knifunptr_dev_naptify_kortex_glfw80_glfwSetCursorPos
+glfwSetCursorPos
+image
+xhot
+yhot
+
+GLFWcursor
+4knifunptr_dev_naptify_kortex_glfw81_glfwCreateCursor
+glfwCreateCursor
+shape
+<knifunptr_dev_naptify_kortex_glfw82_glfwCreateStandardCursor
+glfwCreateStandardCursor
+cursor
+5knifunptr_dev_naptify_kortex_glfw83_glfwDestroyCursor
+glfwDestroyCursor
+1knifunptr_dev_naptify_kortex_glfw84_glfwSetCursor
+glfwSetCursor
+	Function5
+
+GLFWkeyfun
+6knifunptr_dev_naptify_kortex_glfw85_glfwSetKeyCallback
+glfwSetKeyCallback
+UInt
+GLFWcharfun
+7knifunptr_dev_naptify_kortex_glfw86_glfwSetCharCallback
+glfwSetCharCallback
+GLFWcharmodsfun
+;knifunptr_dev_naptify_kortex_glfw87_glfwSetCharModsCallback
+glfwSetCharModsCallback
+	Function4
+GLFWmousebuttonfun
+>knifunptr_dev_naptify_kortex_glfw88_glfwSetMouseButtonCallback
+glfwSetMouseButtonCallback
+GLFWcursorposfun
+<knifunptr_dev_naptify_kortex_glfw89_glfwSetCursorPosCallback
+glfwSetCursorPosCallback
+GLFWcursorenterfun
+>knifunptr_dev_naptify_kortex_glfw90_glfwSetCursorEnterCallback
+glfwSetCursorEnterCallback
+GLFWscrollfun
+9knifunptr_dev_naptify_kortex_glfw91_glfwSetScrollCallback
+glfwSetScrollCallback
+CArrayPointer
+GLFWdropfun
+7knifunptr_dev_naptify_kortex_glfw92_glfwSetDropCallback
+glfwSetDropCallback
+jid
+7knifunptr_dev_naptify_kortex_glfw93_glfwJoystickPresent
+glfwJoystickPresent
+7knifunptr_dev_naptify_kortex_glfw94_glfwGetJoystickAxes
+glfwGetJoystickAxes
+
+UByteVarOf
+UByte
+UByteVar
+:knifunptr_dev_naptify_kortex_glfw95_glfwGetJoystickButtons
+glfwGetJoystickButtons
+7knifunptr_dev_naptify_kortex_glfw96_glfwGetJoystickHats
+glfwGetJoystickHats
+7knifunptr_dev_naptify_kortex_glfw97_glfwGetJoystickName
+glfwGetJoystickName
+7knifunptr_dev_naptify_kortex_glfw98_glfwGetJoystickGUID
+glfwGetJoystickGUID
+>knifunptr_dev_naptify_kortex_glfw99_glfwSetJoystickUserPointer
+glfwSetJoystickUserPointer
+?knifunptr_dev_naptify_kortex_glfw100_glfwGetJoystickUserPointer
+glfwGetJoystickUserPointer
+:knifunptr_dev_naptify_kortex_glfw101_glfwJoystickIsGamepad
+glfwJoystickIsGamepad
+GLFWjoystickfun
+<knifunptr_dev_naptify_kortex_glfw102_glfwSetJoystickCallback
+glfwSetJoystickCallback
+string
+>knifunptr_dev_naptify_kortex_glfw103_glfwUpdateGamepadMappings
+glfwUpdateGamepadMappings
+7knifunptr_dev_naptify_kortex_glfw104_glfwGetGamepadName
+glfwGetGamepadName
+GLFWgamepadstate
+state
+8knifunptr_dev_naptify_kortex_glfw105_glfwGetGamepadState
+glfwGetGamepadState
+;knifunptr_dev_naptify_kortex_glfw106_glfwSetClipboardString
+glfwSetClipboardString
+;knifunptr_dev_naptify_kortex_glfw107_glfwGetClipboardString
+glfwGetClipboardString
+0knifunptr_dev_naptify_kortex_glfw108_glfwGetTime
+glfwGetTime
+time
+0knifunptr_dev_naptify_kortex_glfw109_glfwSetTime
+glfwSetTime
+ULong
+posix
+uint64_t
+6knifunptr_dev_naptify_kortex_glfw110_glfwGetTimerValue
+glfwGetTimerValue
+:knifunptr_dev_naptify_kortex_glfw111_glfwGetTimerFrequency
+glfwGetTimerFrequency
+;knifunptr_dev_naptify_kortex_glfw112_glfwMakeContextCurrent
+glfwMakeContextCurrent
+:knifunptr_dev_naptify_kortex_glfw113_glfwGetCurrentContext
+glfwGetCurrentContext
+4knifunptr_dev_naptify_kortex_glfw114_glfwSwapBuffers
+glfwSwapBuffers
+interval
+5knifunptr_dev_naptify_kortex_glfw115_glfwSwapInterval
+glfwSwapInterval
+	extension
+;knifunptr_dev_naptify_kortex_glfw116_glfwExtensionSupported
+glfwExtensionSupported
+procname
+	Function0
+
+GLFWglproc
+7knifunptr_dev_naptify_kortex_glfw117_glfwGetProcAddress
+glfwGetProcAddress
+8knifunptr_dev_naptify_kortex_glfw118_glfwVulkanSupported
+glfwVulkanSupported
+	UIntVarOf
+uint32_tVar
+Fknifunptr_dev_naptify_kortex_glfw119_glfwGetRequiredInstanceExtensions
+!glfwGetRequiredInstanceExtensions
+GLFW_VERSION_MAJOR
+GLFW_VERSION_MINOR
+GLFW_VERSION_REVISION
+	GLFW_TRUE
+
+GLFW_FALSE
+GLFW_RELEASE
+
+GLFW_PRESS
+GLFW_REPEATÜ
+ 
+  
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+	
+
+
+
+ 
+ 
+ 
+! 
+" 
+ # 
+$ 
+' 
+( 
+, 
+ - 
+. 
+8
+9
+: 
+L 
+ M 
+N 
+X 
+Y 
+\ 
+_ 
+g 
+ q 
+r 
+v 
+Ö 
+ ∆ 
+« 
+  
+ Õ 
+Œ 
+— 
+‘ 
+◊ 
+⁄ 
+› 
+‡ 
+ Á 
+ˇ 
+Ä 
+à 
+ ì 
+î 
+ ó 
+ò 
+õ 
+ û 
+ü 
+¢ 
+• 
+® 
+´ 
+¨ 
+¥ 
+ µ 
+∂ 
+≈ 
+Õ 
+ ⁄ 
+4
+I€
+J‹ 
+ Ó 
+Ô 
+Ù 
+Jı ∞L	0Há “
+(“
+0Há “
+(“
+-02020Há “
+(“
+-02
+00Há “
+(“
+k 0200j`0200j`0200j`0Há “
+(“
+/&00j`0Há “
+(%“
+W+028)4.,00j`00j00j``0Há “
+(*“
+ï1:.,(&000j`00000j`2>/:.,(&000j`00000j`Há “
+(0“
+30Há “
+(2“
+%60240Há “
+(5“
+U< 
+000j0`02700j`0Há “
+(;“
+%>
+00Há “
+(=“
+aC02?
+002@00j`02A00j`0Há “
+(B“
+ïG02?
+002@00j`02A00j`02D00j`02E00j`0Há “
+(F“
+aK02?
+002H00j`02I00j`0Há “
+(J“
+aR02?
+002O00j`02P00j`0Há “
+(Q“
+?T00j`02?
+00Há “
+(S“
+;W02?
+002U0Há “
+(V“
+=[00j` 2?
+00Há “
+(Z“
+Å^0$"
+0000000j`!24/0$"
+0000000j`!Há “
+(]“
+Oa
+0"02?
+002700j`0Há “
+(`“
+5c
+0"02?
+00Há “
+(b“
+5f02?
+002d0Há “
+(e“
+5i
+0#02?
+00Há “
+(h“
+=l02?
+002j
+0#0Há “
+(k“
+n0Há “
+(m“
+-p02020Há “
+(o“
+6t02020$“
+%Há “
+(s“
+fy
+0&02D02E02u0$“
+%2?
+002w
+0&0Há “
+(x“
+-|02z
+0&0Há “
+({“
+-~02z
+0&0Há “
+(}“
+6Ä02z
+0&020Há “
+(“
+AÇ00j`02z
+0&0Há “
+	(Å“
+@Ñ02z
+0&02u0$“
+%Há “
+	(É“
+Hà02z
+0&02702Ü
+0'0Há “
+	(á“
+cä02z
+0&02@00j`02A00j`0Há “
+	(â“
+?å02z
+0&02@02A0Há “
+	(ã“
+cé02z
+0&02D00j`02E00j`0Há “
+	(ç“
+Sî02z
+0&02è02ê02ë02í0Há “
+	(ì“
+Aò02z
+0&02ï02ñ0Há “
+	(ó“
+?ö02z
+0&02D02E0Há “
+	(ô“
+cú02z
+0&02D00j`02E00j`0Há “
+	(õ“
+õ¢02z
+0&02ù00j`02û00j`02ü00j`02†00j`0Há “
+	(°“
+c§02z
+0&02O00j`02P00j`0Há “
+	(£“
+/¶02z
+0&0Há “
+	(•“
+8©02z
+0&02ß0Há “
+	(®“
+/´02z
+0&0Há “
+	(™“
+/≠02z
+0&0Há “
+	(¨“
+/Ø02z
+0&0Há “
+	(Æ“
+/±02z
+0&0Há “
+	(∞“
+/≥02z
+0&0Há “
+	(≤“
+/µ02z
+0&0Há “
+	(¥“
+/∑02z
+0&0Há “
+	(∂“
+7π
+002z
+0&0Há “
+	(∏“
+hº02z
+0&02?
+002@02A02D02E02∫0Há “
+	(ª“
+8ø02z
+0&02Ω0Há “
+	(æ“
+@¡02z
+0&02Ω020Há “
+	(¿“
+=√02z
+0&02U0Há “
+	(¬“
+?≈00j` 2z
+0&0Há “
+	(ƒ“
+ü…6*($"
+0&00000(00j`)2z
+0&02:/6*($"
+0&00000(00j`)Há “
+	(»“
+üÃ6*($"
+0&00000(00j`*2z
+0&02:/6*($"
+0&00000(00j`*Há “
+	(À“
+á–*
+0&000+00j`,2z
+0&02./*
+0&000+00j`,Há “
+	(œ“
+á”*
+0&000+00j`-2z
+0&02./*
+0&000+00j`-Há “
+	(““
+ì÷0$"
+0&000000j`.2z
+0&024/0$"
+0&000000j`.Há “
+	(’“
+ìŸ0$"
+0&000000j`/2z
+0&024/0$"
+0&000000j`/Há “
+	(ÿ“
+ì‹0$"
+0&000000j`02z
+0&024/0$"
+0&000000j`0Há “
+	(€“
+üﬂ6*($"
+0&00000(00j`12z
+0&02:/6*($"
+0&00000(00j`1Há “
+	(ﬁ“
+ü‚6*($"
+0&00000(00j`22z
+0&02:/6*($"
+0&00000(00j`2Há “
+	(·“
+‰0Há “
+	(„“
+Ê0Há “
+	(Â“
+(Í02Ë03Há “
+	(È“
+Ï0Há “
+	(Î“
+8Ô02z
+0&02Ì0Há “
+	(Ó“
+@Ò02z
+0&02Ì020Há “
+	(“
+Û0Há “
+	(Ú“
+C˜00j`02Ù02ı0Há “
+	(ˆ“
+(˘02Ù0Há “
+	(¯“
+8˚02z
+0&02Ù0Há “
+	(˙“
+8˛02z
+0&02¸0Há “
+	(˝“
+cÇ02z
+0&02@0304j`502A0304j`50Há “
+	(Å“
+?Ñ02z
+0&02@032A03Há “
+	(É“
+Jä
+0602Ö
+0'02Ü02á0Há “
+	(â“
+0ç
+0602ã0Há “
+	(å“
+0ê02é
+060Há “
+	(è“
+@í02z
+0&02é
+060Há “
+	(ë“
+∑ñB640.
+0&0000000700j`82z
+0&02F/B640.
+0&0000000700j`8Há “
+	(ï“
+ìö0$"
+0&0090000j`:2z
+0&024/0$"
+0&0090000j`:Há “
+	(ô“
+üù6*($"
+0&009000(00j`;2z
+0&02:/6*($"
+0&009000(00j`;Há “
+	(ú“
+´°<0.*(
+0&000000<00j`=2z
+0&02@/<0.*(
+0&000000<00j`=Há “
+	(†“
+ü§6*($"
+0&0030300(00j`>2z
+0&02:/6*($"
+0&0030300(00j`>Há “
+	(£“
+ìß0$"
+0&000000j`?2z
+0&024/0$"
+0&000000j`?Há “
+	(¶“
+ü™6*($"
+0&0030300(00j`@2z
+0&02:/6*($"
+0&0030300(00j`@Há “
+	(©“
+˙Æ¢ïíçä
+0&00lj.,00j`00j00j``0j4.,00j`00j00j```A00(00j`B2z
+0&02ß/¢ïíçä
+0&00lj.,00j`00j00j``0j4.,00j`00j00j```A00(00j`BHá “
+	(≠“
+(±02Ø0Há “
+	(∞“
+T≥00j`02Ø02700j`0Há “
+	(≤“
+T∏0D0Cj`E02Ø02700j`0Há “
+	(∑“
+T∫0D0Cj`E02Ø02700j`0Há “
+	(π“
+:º00j`02Ø0Há “
+	(ª“
+:æ00j`02Ø0Há “
+	(Ω“
+6¿02Ø02U0Há “
+	(ø“
+8¬00j` 2Ø0Há “
+	(¡“
+(ƒ02Ø0Há “
+	(√“
+s«(000000j`F2,/(000000j`FHá “
+	(∆“
+1 02»0$“
+%Há “
+	(…“
+:Ã00j`02Ø0Há “
+	(À“
+9–02Ø02Œ
+0G0Há “
+	(œ“
+A“02z
+0&02»0$“
+%Há “
+	(—“
+A‘00j`02z
+0&0Há “
+	(”“
+÷03Há “
+	(’“
+(Ÿ02◊03Há “
+	(ÿ“
+#ﬁ0Hj`KHá “
+	(›“
+#‡0Hj`KHá “
+	(ﬂ“
+/‚02z
+0&0Há “
+	(·“
+'‰
+0&0Há “
+	(„“
+/Ê02z
+0&0Há “
+	(Â“
+(È02Á0Há “
+	(Ë“
+1Ï02Í0$“
+%Há “
+	(Î“
+KÒ
+00L00j`M2Ì0$“
+%Há “
+	(“
+Û0Há “
+	(Ú“
+k˜4.,00j`00j00j``027090Nj`O0Há “
+	(ˆ“
+"¯08XáT“
+Í
+"˘08XáT“
+Í
+"˙08XáT“
+Í
+ "˚08XáT“
+Í
+"¸08XáT“
+Í
+ "˝08XáT“
+Í
+ "˛08XáT“
+Í
+"ˇ08XáT“
+Í
+ÿ
+‡
+ Í
+dev.naptify.kortex.glfw
