@@ -1,0 +1,3 @@
+language = C++
+headers = bgfx/c99/bgfx.h
+headerFilter = bgfx/c99/**

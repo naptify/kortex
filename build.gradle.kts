@@ -1,7 +1,17 @@
 import org.jetbrains.kotlin.gradle.dsl.KotlinMultiplatformExtension
 
+group = "dev.naptify.kortex"
+version = "0.1.0-SNAPSHOT"
+
 plugins {
     kotlin("multiplatform") version "2.3.0" apply false
+    id("maven-publish")
+}
+
+publishing {
+    publications {
+
+    }
 }
 
 subprojects {
@@ -9,52 +19,61 @@ subprojects {
 
     extensions.configure<KotlinMultiplatformExtension>("kotlin") {
         mingwX64 {
-            val libsDir = rootProject.file("libs")
-            val inc = libsDir.resolve("include")
-            val binDir = libsDir.resolve("windows")
-
+            val inc = project.file("include")
+            val bin = project.file("bin/windows")
             compilations.getByName("main").cinterops {
-                val isCore = project.name == "core"
-                val defName = if (isCore) "glfw" else "bgfx"
-
-                create(defName) {
-                    definitionFile.set(project.file("src/nativeInterop/cinterop/$defName.def"))
-                    packageName("dev.naptify.kortex.$defName")
-                    includeDirs(inc)
-
-                    if (isCore) {
-                        compilerOpts("-I$inc", "-D_GLFW_WIN32")
-                    } else {
-                        compilerOpts(
-                            "-std=c++20",
-                            "-I${inc.resolve("bgfx/c99")}",
-                            "-I${inc.resolve("bx")}",
-                            "-I${inc.resolve("bimg")}",
-                            "-DBX_CONFIG_DEBUG=0", "-DBX_PLATFORM_WINDOWS=1",
-                            "-D__STDC_CONSTANT_MACROS", "-D__STDC_FORMAT_MACROS", "-D__STDC_LIMIT_MACROS"
-                        )
+                when (project.name) {
+                    "core" -> {
+                        val glfw by creating {
+                            definitionFile.set(project.file("src/nativeInterop/cinterop/glfw.def"))
+                            packageName("dev.naptify.kortex.glfw")
+                            includeDirs(inc)
+                            compilerOpts(
+                                "-I$inc",
+                                "-D_GLFW_WIN32"
+                            )
+                        }
                     }
+                    "klyph" -> {
+                        val bgfx by creating {
+                            definitionFile.set(project.file("src/nativeInterop/cinterop/bgfx.def"))
+                            packageName("dev.naptify.kortex.bgfx")
+                            includeDirs(inc, inc.resolve("bgfx/c99"))
+                            compilerOpts(
+                                "-std=c++20",
+                                "-I${inc.resolve("bgfx/c99")}",
+                                "-I${inc.resolve("bx")}",
+                                "-I${inc.resolve("bimg")}",
+                                "-DBX_CONFIG_DEBUG=0", "-DBX_PLATFORM_WINDOWS=1",
+                                "-D__STDC_CONSTANT_MACROS", "-D__STDC_FORMAT_MACROS", "-D__STDC_LIMIT_MACROS",
+                            )
+                        }
+                    }
+                    else -> return@cinterops
                 }
             }
 
             binaries {
-                all { linkerOpts("-L${binDir.absolutePath}") }
+                all { linkerOpts("-L${bin.absolutePath}") }
 
-                if (project.name == "klyph") {
-                    executable {
-                        linkerOpts("-lbgfx", "-lbimg", "-lbimg_decode", "-lbx", "-lglfw3")
-                        linkerOpts("-lgdi32", "-luser32", "-lpsapi", "-lcomdlg32", "-lole32", "-lshell32")
+                when (project.name) {
+                    "klyph" ->  {
+                        executable {
+                            linkerOpts("-lbgfx", "-lbimg", "-lbimg_decode", "-lbx", "-lglfw3")
+                            linkerOpts("-lgdi32", "-luser32", "-lpsapi", "-lcomdlg32", "-lole32", "-lshell32")
+                        }
                     }
-                } else if (project.name == "core") {
-                    staticLib {
-                        export(compilations.getByName("main").cinterops.getByName("glfw").dependencyFiles)
+                    "core" -> {
+                        staticLib {
+                            export(compilations.getByName("main").cinterops.getByName("glfw").dependencyFiles)
+                        }
                     }
                 }
             }
         }
 
         sourceSets {
-            if (project.name == "klyph") {
+            if (project.name != "core") {
                 val commonMain by getting {
                     dependencies { implementation(project(":core")) }
                 }

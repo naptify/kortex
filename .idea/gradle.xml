@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -10,8 +11,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/core" />
-            <option value="$PROJECT_DIR$/klyph" />
+            <option value="$PROJECT_DIR$/common/kache" />
+            <option value="$PROJECT_DIR$/common/kalculus" />
+            <option value="$PROJECT_DIR$/common/koda" />
+            <option value="$PROJECT_DIR$/engine/kinetic" />
+            <option value="$PROJECT_DIR$/engine/krawl" />
+            <option value="$PROJECT_DIR$/engine/kult" />
+            <option value="$PROJECT_DIR$/graphics/klyph" />
+            <option value="$PROJECT_DIR$/platform/core" />
+            <option value="$PROJECT_DIR$/platform/kero" />
           </set>
         </option>
       </GradleProjectSettings>
